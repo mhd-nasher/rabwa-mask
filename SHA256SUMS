@@ -1,0 +1,2 @@
+6d01ba41e255f9698dfb821c722046fc926e34c2cc5779fe5606db96793a2ab5  model/model.int8pc.onnx
+fd27a572be416fb11caa17d1200704636bb171203fe3a74b1c64ae63b6e42d87  model/model.safetensors

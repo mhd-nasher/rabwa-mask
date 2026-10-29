@@ -1,6 +1,6 @@
-# arabic-pii-ner
+# rabwa-mask
 
-A small, CPU-only model that finds personal data in **Arabic (Gulf / Saudi dialect) and English** text, plus a
+**rabwa-mask** is a small, CPU-only model that finds personal data in **Arabic (Gulf / Saudi dialect) and English** text, plus a
 reversible redaction helper. Use it to mask names, phone numbers, IDs and addresses **before** you send text to an
 external LLM API, then put the real values back into the reply.
 
@@ -41,9 +41,9 @@ takes names and addresses from the model.
 ## Quick start
 
 ```bash
-git clone https://github.com/mhd-nasher/arabic-pii-ner && cd arabic-pii-ner
+git clone https://github.com/mhd-nasher/rabwa-mask && cd rabwa-mask
 curl -L -o model/model.int8pc.onnx \
-  https://github.com/mhd-nasher/arabic-pii-ner/releases/download/v1.0.0/model.int8pc.onnx
+  https://github.com/mhd-nasher/rabwa-mask/releases/download/v1.0.0/model.int8pc.onnx
 pip install -r requirements.txt
 python pii_redact.py "Please call Sara Al-Harbi on +966 55 123 4567, her IBAN is SA44 2000 0001 2345 6789 1234"
 ```

@@ -1,4 +1,4 @@
-arabic-pii-ner
+rabwa-mask
 Copyright 2026 mhd-nasher
 
 This model is a fine-tuned derivative of CAMeL-Lab/bert-base-arabic-camelbert-mix-ner
