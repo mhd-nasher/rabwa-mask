@@ -1,0 +1,10 @@
+arabic-pii-ner
+Copyright 2026 mhd-nasher
+
+This model is a fine-tuned derivative of CAMeL-Lab/bert-base-arabic-camelbert-mix-ner
+(https://huggingface.co/CAMeL-Lab/bert-base-arabic-camelbert-mix-ner), released by CAMeL Lab,
+New York University Abu Dhabi, under the Apache License 2.0.
+
+Changes: the token-classification head was replaced and the model was fine-tuned on synthetic
+data for PII detection (labels PERSON, PHONE, EMAIL, NID, IQAMA, IBAN, PLATE, ADDRESS), then
+exported to ONNX and quantised to int8.
